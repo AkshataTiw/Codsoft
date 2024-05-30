@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+body {
+    background-color: #e6f5fb; 
+    overflow-x: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 57, 146);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+.hero-right img{
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+
+
+.hero-section {
+    display: flex;
+    color: rgb(25, 57, 146);
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e6f5fb;
+}
+
+.hero-left p{
+    margin-top: 30px;
+}
+
+.hero-left button {
+    margin-top: 30px;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.total {
+    display: flex;
+    padding-left: 290px;
+}
+
+.same{
+    min-width: 360px;
+}
+
+@media screen and (max-width: 1214px) {
+   
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-left{
+        text-align: center;
+        margin-top: -20px;
+    }
+    .hero-right img {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 444px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.85rem;
+    }
+}
